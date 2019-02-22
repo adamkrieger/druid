@@ -1,0 +1,15 @@
+sports:
+  - name: Basketball
+    atom: basketball
+    details:
+      description: The Game of Basketball
+    relations:
+      - type: equipment
+        atom: ball
+
+equipment:
+  - name: Ball
+    atom: ball
+    details: 
+      description: Any kind of ball
+  
